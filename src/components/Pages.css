@@ -1,0 +1,614 @@
+.des_box {
+    background-image: url(../assets/destination/background-destination-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 7.2rem;
+}
+
+.grid-destinations {
+    row-gap: 0;
+    margin-top: 7.5rem;
+}
+
+.grid-destinations>.grid-child_1 {
+    text-align: center;
+}
+
+.destinations_title {
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding-block: 1.2rem;
+    font-weight: 400;
+}
+
+.tab_list {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.tab_list>* {
+    background: transparent;
+    color: #D0D6F9;
+    border: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.underline {
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+.planets_title {
+    line-height: 3.5rem;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    font-family: 'Bellefair';
+    padding-block: 1.3rem;
+    font-weight: 400;
+}
+
+.planets_info {
+    padding-top: 1.2rem;
+    position: relative;
+}
+
+.planets_info::after {
+    position: absolute;
+    content: '';
+    width: 99%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: -0.5rem;
+    left: 0;
+}
+
+.time_box {
+    text-transform: uppercase;
+    font-family: 'Bellefair';
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 4.2rem;
+}
+
+.time_box>div>p {
+    font-size: 2.6rem;
+}
+
+.time_box>div>h3 {
+    color: #D0D6F9;
+    font-size: 1rem;
+
+}
+
+button:active button:focus {
+    background-color: #FFFFFF;
+}
+
+.planets_img {
+    max-width: 63%;
+    padding-block: 1.2rem;
+}
+
+
+
+@media (min-width:750px) {
+    .des_box {
+        background-image: url(../assets/destination/background-destination-tablet.jpg);
+    }
+
+    .destinations_title {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        text-align: left;
+        padding-left: 1.4rem;
+    }
+
+    .tab_list {
+        margin-block: 1.5rem;
+    }
+
+
+    .planets_title {
+        line-height: 9rem;
+        font-size: 8rem;
+    }
+
+    .planets_info {
+        margin: auto;
+        font-weight: 400;
+        line-height: 2.8rem;
+        font-size: 1.6rem;
+        text-align: center;
+        width: 60.9ch;
+    }
+
+    .tab_list>* {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .time_box {
+        flex-direction: row;
+        justify-content: center;
+        gap: 11rem;
+    }
+
+    .time_box>div>h3 {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        text-align: center;
+        letter-spacing: 0.5rem;
+    }
+
+    .time_box>div>p {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+}
+
+@media(min-width:1024px) {
+    .des_box {
+        background-image: url(../assets/destination/background-destination-desktop.jpg);
+
+    }
+
+    .planets_title {
+        font-size: 10rem;
+        line-height: 11.5rem;
+        text-align: left;
+    }
+
+    .planets_info {
+        font-size: 10.0rem;
+        line-height: 11.5rem;
+    }
+
+    .tab_list {
+        justify-content: left;
+        gap: 4rem;
+        padding-top: 13rem;
+    }
+
+    .planets_title {
+        font-size: 10.0rem;
+        line-height: 11.5rem;
+    }
+
+    .planets_info {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .time_box {
+
+        justify-content: left;
+    }
+
+    .time_box>div>p {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .time_box>div>h3 {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .planets_img {
+        max-width: 90%;
+    }
+
+    .destinations_title {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+
+    .tab_list>* {
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+    }
+}
+
+/* =======================================================
+crew.css
+===========================================================*/
+
+.crew_box {
+    background-image: url(../assets/crew/background-crew-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 7.2rem;
+}
+
+.grid-area {
+    row-gap: 0;
+}
+
+#radio {
+    height: 1.9rem;
+    width: 1.9rem;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 0.1rem solid #FFFFFF;
+    font-size: 1.2em;
+}
+
+.grid-area {
+
+    grid-template-areas:
+        " title"
+        " img "
+        " tab"
+        "  info ";
+
+}
+
+.underline2 {
+    background-color: #FFFFFF;
+
+    /* text-decoration: underline; */
+
+}
+
+.tab {
+    grid-area: tab;
+    margin-block: 1.4rem;
+
+}
+
+
+
+
+.crew_name {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+.crew_bio {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #D0D6F9;
+    text-align: center;
+    padding: 2rem 1rem 9rem 1rem;
+}
+
+.title {
+    grid-area: title;
+
+}
+
+
+.role_info {
+
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.crew_img {
+    max-width: 73%;
+    grid-area: img;
+    margin: auto;
+    border-bottom: 0.2rem solid #ffffff1f;
+}
+
+
+.crew_info {
+    grid-area: info;
+}
+
+
+@media (min-width:750px) {
+    .crew_box {
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+
+    }
+
+    .grid-area {
+
+        grid-template-areas:
+            " title"
+            " info "
+            " tab"
+            "img";
+
+    }
+
+    .crew_name {
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+
+    .crew_bio {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        padding-inline: 5rem;
+    }
+
+    .role_info {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+
+    }
+
+    .title {
+        margin-top: 2.5rem;
+    }
+
+    .crew_info {
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .crew_box {
+        background-image: url(../assets/crew/background-crew-desktop.jpg);
+
+    }
+
+
+
+    .role_info {
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+        text-align: left;
+
+    }
+
+    .crew_name {
+        font-size: 5.6rem;
+        line-height: 6.4rem;
+        font-weight: 400;
+        text-align: left;
+
+    }
+
+    .crew_bio {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        margin: 0;
+        text-align: left;
+        padding: 0;
+        width: 50ch;
+
+    }
+
+
+
+    .grid-area {
+        margin-top: 5.5rem;
+
+        grid-template-areas:
+            ". title  title  ."
+            ". info  img ."
+            ". tab  img .";
+
+    }
+
+    .title {
+        grid-area: title;
+
+    }
+
+    .crew_img {
+        grid-area: img;
+        max-width: 90%;
+        margin: 0;
+
+    }
+
+    .tab {
+        grid-area: tab;
+        padding-top: 0;
+        margin-block: 0;
+        padding-left: 5rem;
+
+    }
+
+    #radio {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .crew_info {
+        padding-top: 20rem;
+        grid-area: info;
+        padding-left: 5rem;
+    }
+
+
+
+
+}
+
+
+
+
+/* =======================================================
+technology.css
+===========================================================*/
+
+
+.tech_box {
+    background-image: url(../assets/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 7.2rem;
+}
+
+.grid-area-tech {
+    display: grid;
+    row-gap: 0;
+    grid-template-areas:
+        " title"
+        "img"
+        "button"
+        "info";
+}
+
+.title {
+    grid-area: title;
+
+}
+
+.button {
+    grid-area: button;
+}
+
+.tech_img {
+    grid-area: img;
+}
+
+.tech_details {
+    grid-area: info;
+}
+
+
+
+#radio.btn_active {
+    color: black;
+    background: #FFFFFF;
+}
+
+.info_title {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    letter-spacing: 2.3625px;
+}
+
+.tech_info {
+    padding-block: 1.3rem;
+    color: #D0D6F9;
+    padding-inline: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: 'Barlow';
+}
+
+.tech_h2 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+@media (min-width:750px) {
+    .tech_box {
+        background-image: url(../assets/technology/background-technology-tablet.jpg);
+
+    }
+
+    .tech_info {
+        padding-inline: 15rem;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+
+    }
+
+    .tech_h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+
+}
+
+@media(min-width:1024px) {
+    .tech_box {
+        background-image: url(../assets/technology/background-technology-desktop.jpg);
+
+    }
+
+    .grid-area-tech {
+        grid-template-columns: minmax(2em, 1fr) 10.5rem repeat(2, minmax(0, 80rem)) minmax(0, 1fr);
+        /*adding 10.5rem column*/
+
+        grid-template-areas:
+            ". .title title."
+            ". button info img.";
+    }
+
+
+    .info_title {
+        text-align: left;
+    }
+
+    .title {
+        grid-area: title;
+    }
+
+    .button {
+        grid-area: button;
+        flex-direction: column;
+        justify-self: flex-end;
+        margin-right: 2.5rem;
+        padding-top: 18.3rem;
+        gap: 7rem;
+    }
+
+    .tech_img {
+        grid-area: img;
+    }
+
+    .tech_details {
+        grid-area: info;
+        margin-top: 19.5rem;
+
+    }
+
+    .tech_h2 {
+        font-size: 56px;
+        line-height: 64px;
+        text-align: start;
+        margin-bottom: 3rem;
+    }
+
+    .tech_info {
+        padding: 0;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: start;
+        width: 60ch;
+
+    }
+
+    .tech_img {
+        display: block;
+        justify-self: end;
+        align-self: flex-end;
+    }
+}
